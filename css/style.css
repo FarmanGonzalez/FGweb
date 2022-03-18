@@ -630,7 +630,7 @@ h3 {
 .section_title h3::before {
   position: absolute;
   left: 0;
-  background: #5DB2FF;
+  background: #ffa90a;
   height: 2px;
   width: 50px;
   content: '';
@@ -665,7 +665,7 @@ h3 {
 /* line 35, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_section_title.scss */
 .section_title p {
   font-size: 16px;
-  color: #727272;
+  color: #d3cece;
   line-height: 28px;
   margin-bottom: 0;
 }
@@ -964,7 +964,7 @@ h3 {
 
 /* line 104, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu {
-  text-align: center;
+  text-align: left;
   padding: 12px 0;
 }
 
@@ -2676,14 +2676,14 @@ h3 {
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_department.scss */
 .our_department_area {
-  background: #F5FBFF;
+  background: rgb(65, 64, 64);
   padding-top: 120px;
   padding-bottom: 90px;
 }
 
 /* line 5, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_department.scss */
 .our_department_area .single_department {
-  background: #fff;
+  background: rgb(53, 52, 52);
   margin-bottom: 30px;
   -webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.04);
   -moz-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.04);
@@ -2723,28 +2723,28 @@ h3 {
 /* line 23, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_department.scss */
 .our_department_area .single_department .department_content h3 a {
   font-size: 22px;
-  color: #1F1F1F;
+  color: #e49329;
   line-height: 33px;
   font-weight: 500;
 }
 
 /* line 28, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_department.scss */
 .our_department_area .single_department .department_content h3 a:hover {
-  color: #5DB2FF;
+  color: #ebeae9;
 }
 
 /* line 33, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_department.scss */
 .our_department_area .single_department .department_content p {
   font-size: 16px;
   line-height: 28px;
-  color: #727272;
+  color: #bebaba;
   margin-top: 5px;
   margin-bottom: 10px;
 }
 
 /* line 40, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_department.scss */
 .our_department_area .single_department .department_content a.learn_more {
-  color: #5DB2FF;
+  color: #e49329;
   font-size: 16px;
 }
 
