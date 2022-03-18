@@ -1,12 +1,12 @@
-.our_department_area{
+.recursos_hmis{
     background: #F5FBFF;
     padding-top: 120px;
     padding-bottom: 90px;
-    .single_department{
+    .recurso_individual{
         background: #fff;
         margin-bottom: 30px;
         @include box-shadow(0 6px 10px rgba(0, 0, 0, .04));
-        .department_thumb{
+        .recurso_imagen{
             overflow: hidden;
             border-top-right-radius: 5px;
             border-top-left-radius: 5px;
@@ -16,7 +16,7 @@
                 @include transition(.3s);
             }
         }
-        .department_content{
+        .recurso_texto{
             padding: 22px 30px 24px 30px;
             h3{
                 margin-bottom: 0;
@@ -46,7 +46,7 @@
             }
         }
         &:hover{
-            .department_thumb{
+            .recurso_imagen{
                 img{
                     @include transform(scale(1.2));
                 }

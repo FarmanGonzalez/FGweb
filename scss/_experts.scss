@@ -1,4 +1,4 @@
-.expert_doctors_area{
+.miembros_equipo_area{
     padding-top: 120px;
     padding-bottom: 120px;
     &.doctor_page{
@@ -8,7 +8,7 @@
         padding-top: 80px;
         padding-bottom: 80px;
     }
-    .doctors_title{
+    .miembros_titulo{
         h3{
             font-size: 36px;
             font-weight: 500;
@@ -18,8 +18,8 @@
             }
         }
     }
-    .single_expert{
-        .expert_thumb{
+    .miembros_miembro{
+        .miembros_imagen{
             border-top-left-radius: 5px;
             border-top-right-radius: 5px;
             overflow: hidden;
@@ -29,7 +29,7 @@
                 width: 100%;
             }
         }
-        .experts_name{
+        .miembros_nombre{
             @include transition(.3s);
             background: #F5FBFF;
             padding-top: 16px;
@@ -47,12 +47,12 @@
             }
         }
         &:hover{
-            .expert_thumb{
+            .miembros_imagen{
                 img{
                     @include transform(scale(1.03));
                 }
             }
-            .experts_name{
+            .miembros_nombre{
                 background: #5DB2FF;
                 h3{
                     color: #fff;
