@@ -882,7 +882,7 @@ h3 {
 }
 
 /* line 57, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_header.scss */
-.header-area .main-header-area .Appointment {
+.header-area .main-header-area .Boton_repo {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -900,43 +900,43 @@ h3 {
 }
 
 /* line 63, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_header.scss */
-.header-area .main-header-area .Appointment .socail_links ul li {
+.header-area .main-header-area .Boton_repo .socail_links ul li {
   display: inline-block;
 }
 
 /* line 66, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_header.scss */
-.header-area .main-header-area .Appointment .socail_links ul li a {
+.header-area .main-header-area .Boton_repo .socail_links ul li a {
   color: #A8A7A0;
   margin: 0 10px;
   font-size: 15px;
 }
 
 /* line 70, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_header.scss */
-.header-area .main-header-area .Appointment .socail_links ul li a:hover {
+.header-area .main-header-area .Boton_repo .socail_links ul li a:hover {
   color: #fff;
 }
 
 /* line 77, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_header.scss */
-.header-area .main-header-area .Appointment .book_btn {
+.header-area .main-header-area .Boton_repo .book_btn {
   margin-left: 30px;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
   /* line 77, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_header.scss */
-  .header-area .main-header-area .Appointment .book_btn {
+  .header-area .main-header-area .Boton_repo .book_btn {
     margin-left: 0;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
   /* line 77, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_header.scss */
-  .header-area .main-header-area .Appointment .book_btn {
+  .header-area .main-header-area .Boton_repo .book_btn {
     margin-left: 0;
   }
 }
 
 /* line 85, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_header.scss */
-.header-area .main-header-area .Appointment .book_btn a {
+.header-area .main-header-area .Boton_repo .book_btn a {
   background: #ebb010;
   padding: 12px 26px;
   font-size: 14px;
@@ -950,13 +950,13 @@ h3 {
 
 @media (min-width: 992px) and (max-width: 1200px) {
   /* line 85, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_header.scss */
-  .header-area .main-header-area .Appointment .book_btn a {
+  .header-area .main-header-area .Boton_repo .book_btn a {
     padding: 12px 20px;
   }
 }
 
 /* line 96, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_header.scss */
-.header-area .main-header-area .Appointment .book_btn a:hover {
+.header-area .main-header-area .Boton_repo .book_btn a:hover {
   background: #fff;
   color: #e0a11a;
   border: 1px solid #e0a11a;
@@ -2690,6 +2690,33 @@ h3 {
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.04);
 }
 
+.boton_recursos { 
+  width:max-content + 20px;
+  text-align: center;
+  background: #e49329;
+  border-radius: 5px;
+}
+
+.boton_recursos :hover {
+  transition: 0.5s;
+  background:#ffffff;
+  border-radius: 5px;
+}
+
+.boton_recursos .boton_texto h3 {
+  padding: 22px 30px 24px 30px;
+  margin-bottom: 0;
+  font-size: 22px;
+  color: #ffffff;
+  line-height: 33px;
+  font-weight: 500;
+}
+
+.boton_texto h3:hover {
+  transition:0.5s;
+  color: #e49329;
+}
+
 /* line 9, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_department.scss */
 .recursos_hmis .recurso_individual .recurso_imagen {
   overflow: hidden;
@@ -2939,6 +2966,7 @@ h3 {
 
 /* line 22, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_experts.scss */
 .miembros_equipo_area .miembros_miembro .miembros_imagen {
+  position: relative;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   overflow: hidden;
@@ -2971,6 +2999,17 @@ h3 {
 /* line 37, C:/Users/SPN Graphics/Desktop/CL September/210 Medical/HTML/scss/_experts.scss */
 .miembros_equipo_area .miembros_miembro .miembros_nombre h3 {
   font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 1px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.miembros_equipo_area .miembros_miembro .miembros_nombre h4 {
+  color:#5e5e5e;
+  font-size: 18px;
   font-weight: 500;
   margin-bottom: 1px;
   -webkit-transition: 0.3s;
